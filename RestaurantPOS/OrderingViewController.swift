@@ -28,7 +28,7 @@ class OrderingViewController: UIViewController {
     @IBOutlet weak var textView: UITextView!
     
     var name: String!
-    @IBOutlet weak var imageee: PFImageView!
+  //  @IBOutlet weak var imageee: PFImageView!
     var price:String!
     var priceNum:Double!
     var newPrice:Double!
@@ -36,7 +36,7 @@ class OrderingViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        imageee.loadInBackground()
+    //    imageee.loadInBackground()
         
         textView.layer.cornerRadius = 5
         textView.layer.borderColor = UIColor(red:0.76, green:0.76, blue:0.76, alpha: 1.0).CGColor
