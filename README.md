@@ -55,6 +55,10 @@ CrunchE is designed to aid restaurant management in various facets of restaurant
 - Ordering price history
 - Image data
 
+## Basic Functions 
+**Swipe to Delete** 
+<img src='http://imgur.com/38zt183.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+
 
 ## License
 
