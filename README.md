@@ -1,31 +1,35 @@
-# Group Project - *Restaurant POS*
+# Group Project - *CrunchE*
 
-**Restaurant POS** is an app that allows for users to take orders at restaurants, keep track of sales, and synchronizes real-time data between various users (staff, management, and the kitchen).
+**CrunchE** is an app that allows for users to take orders at restaurants, keep track of sales, and synchronizes real-time data between various users (staff, management, and the kitchen). 
 
-Time spent: **x** hours spent in total
+Time spent: **25** hours spent in total
 
 ## User Stories
 
 The following **required** functionality is completed:
 
-- [ ] Management can add/delete from menu. 
-- [ ] Custom cells should have the proper Auto Layout constraints.
-- [ ] Staff can take order and have them updated throughout various users. 
-- [ ] Management can keep track of sales.
-- [ ] Management can add tabs to divide the menu (entree, dessert, etc).
-- [ ] There are three different logins/users (staff, management, kitchen).
+- [x] Management can add/delete from menu. 
+- [x] Custom cells should have the proper Auto Layout constraints.
+- [x] Staff can take order and have them updated throughout various users. 
+- [x] Management can keep track of sales.
+- [x] There are three different logins/users (staff, management, chef).
+- [x] The user can pull to refresh once a new item is added to the menu or active orders. 
 
 The following **optional** features are implemented:
 
 - [ ] Communication between various users (messages displayed on screen for alerts such as "throw out the trash").
    - [ ] Occupancy per week/month/year.
-   - [ ] Displays all time best seller based on data. 
-- [ ] Separate Checks
+   - [x] Displays all-time best seller based on data. 
+- [ ] Separate checks.
 - [ ] Add a modifiers section to the item screen. 
+- [ ] Timer for active tables to make sure food is delivered on time.  
+
 
 The following **additional** features are implemented:
 
-- [ ] List anything else that you can get done to improve the app functionality!
+- [x] Implement an MBProgressHUD.
+- [x] Users are persisted throughout the app. 
+- [x] Menu items have pictures. 
 
 Please list two areas of the assignment you'd like to **discuss further with your peers** during the next class (examples include better ways to implement something, how to extend your app in certain ways, etc):
 
@@ -43,7 +47,7 @@ Here's a walkthrough of implemented user stories:
 GIF created with [LiceCap](http://www.cockos.com/licecap/).
 
 ## Notes
-
+CrunchE is designed to aid restaurant management in various facets of restaurant work. It is designed to make the process of ordering, managing staff and keeping track of sales a much easier process. A restaurant workforce has to deal with many issues in it's day to day job, so our app is meant to make the work life easier for the manager and the rest of the staff.
 
 
 ## Parse Table
