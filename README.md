@@ -57,8 +57,16 @@ CrunchE is designed to aid restaurant management in various facets of restaurant
 
 ## Basic Functions 
 **Swipe to Delete** 
+
 <img src='http://imgur.com/38zt183.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
+**Pull to Refresh** 
+
+<img src='http://imgur.com/5YENCUH.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+
+**User Persisted** 
+
+<img src='http://imgur.com/O3H968m.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
 ## License
 
