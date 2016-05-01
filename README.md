@@ -42,9 +42,8 @@ This is only the basic wireframe on the main components of the app. Our group wi
 
 Here's a walkthrough of implemented user stories:
 
-<img src='' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+https://www.youtube.com/watch?v=MwAi9NJtNM8
 
-GIF created with [LiceCap](http://www.cockos.com/licecap/).
 
 ## Notes
 CrunchE is designed to aid restaurant management in various facets of restaurant work. It is designed to make the process of ordering, managing staff and keeping track of sales a much easier process. A restaurant workforce has to deal with many issues in it's day to day job, so our app is meant to make the work life easier for the manager and the rest of the staff.
