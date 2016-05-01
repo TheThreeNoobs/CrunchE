@@ -9,7 +9,7 @@
         <!--Active Orders-->
         <scene sceneID="tSV-lh-jxa">
             <objects>
-                <viewController id="kbv-lB-ULR" customClass="ChefFirstViewController" customModule="RestaurantPOS" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="kbv-lB-ULR" customClass="ChefFirstViewController" customModule="CrunchE" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="IFc-ZX-A86"/>
                         <viewControllerLayoutGuide type="bottom" id="y2K-Pq-qfN"/>
@@ -98,7 +98,7 @@
         <!--Login View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="LoginViewController" customModule="RestaurantPOS" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="LoginViewController" customModule="CrunchE" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
@@ -172,7 +172,7 @@
         <!--Sales-->
         <scene sceneID="CFx-PD-am6">
             <objects>
-                <viewController id="wRY-L4-mQA" customClass="salesViewController" customModule="RestaurantPOS" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="wRY-L4-mQA" customClass="salesViewController" customModule="CrunchE" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="4xq-kq-gEU"/>
                         <viewControllerLayoutGuide type="bottom" id="Puq-Ct-vcM"/>
@@ -209,7 +209,7 @@
                                 <rect key="frame" x="0.0" y="214" width="320" height="305"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <prototypes>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="salesDetail" rowHeight="81" id="5Lx-3M-DVb" customClass="salesTableViewCell" customModule="RestaurantPOS" customModuleProvider="target">
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="salesDetail" rowHeight="81" id="5Lx-3M-DVb" customClass="salesTableViewCell" customModule="CrunchE" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="28" width="320" height="81"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="5Lx-3M-DVb" id="TMD-fe-3kV">
@@ -332,7 +332,7 @@
         <!--Menu-->
         <scene sceneID="OXb-B1-Z3t">
             <objects>
-                <viewController storyboardIdentifier="ManagerFirst" id="1mj-7d-rI0" customClass="ManagerFirst" customModule="RestaurantPOS" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="ManagerFirst" id="1mj-7d-rI0" customClass="ManagerFirst" customModule="CrunchE" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="Y1d-iB-bBS"/>
                         <viewControllerLayoutGuide type="bottom" id="cHd-8P-8Oy"/>
@@ -341,12 +341,12 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="152" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="IRk-8y-bO6">
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" misplaced="YES" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="152" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="IRk-8y-bO6">
                                 <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <prototypes>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" reuseIdentifier="menuCell" rowHeight="152" id="dkx-Bk-Y1p" customClass="MenuTableViewCell" customModule="RestaurantPOS" customModuleProvider="target">
-                                        <rect key="frame" x="0.0" y="28" width="320" height="152"/>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" reuseIdentifier="menuCell" rowHeight="152" id="dkx-Bk-Y1p" customClass="MenuTableViewCell" customModule="CrunchE" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="92" width="320" height="152"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="dkx-Bk-Y1p" id="QCv-fh-7Tu">
                                             <rect key="frame" x="0.0" y="0.0" width="287" height="151.5"/>
@@ -441,7 +441,7 @@
         <!--Menu Creator-->
         <scene sceneID="P9g-Q9-FkD">
             <objects>
-                <viewController id="l32-cZ-StM" customClass="AddMenuViewController" customModule="RestaurantPOS" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="l32-cZ-StM" customClass="AddMenuViewController" customModule="CrunchE" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="y1M-8o-h4F"/>
                         <viewControllerLayoutGuide type="bottom" id="tOn-F2-yrz"/>
@@ -450,7 +450,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Item Name" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="byl-GK-Rbd">
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Item Name" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="byl-GK-Rbd">
                                 <rect key="frame" x="164" y="99" width="126" height="30"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="126" id="5hk-cj-wKf"/>
@@ -459,7 +459,7 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gBc-dg-J6z">
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gBc-dg-J6z">
                                 <rect key="frame" x="22" y="76" width="91" height="27"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="91" id="HYd-Ol-RM9"/>
@@ -471,7 +471,7 @@
                                     <action selector="uploadImageButton:" destination="l32-cZ-StM" eventType="touchUpInside" id="myO-qO-ooN"/>
                                 </connections>
                             </button>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="$" borderStyle="roundedRect" placeholder="Item Price" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="rn4-An-1yN">
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="$" borderStyle="roundedRect" placeholder="Item Price" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="rn4-An-1yN">
                                 <rect key="frame" x="164" y="137" width="126" height="30"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="126" id="DDU-Lu-9Mt"/>
@@ -480,7 +480,7 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="UsW-hd-t9a">
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" misplaced="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="UsW-hd-t9a">
                                 <rect key="frame" x="20" y="207" width="270" height="128"/>
                                 <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                                 <constraints>
@@ -490,7 +490,7 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sSu-FP-7jo">
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sSu-FP-7jo">
                                 <rect key="frame" x="68" y="343" width="150" height="58"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="58" id="NfK-zg-k0n"/>
@@ -503,7 +503,7 @@
                                     <segue destination="1mj-7d-rI0" kind="push" identifier="successfullyPosted" id="pyb-gr-qkz"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Menu Description" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WlU-xK-LFd">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Menu Description" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WlU-xK-LFd">
                                 <rect key="frame" x="20" y="187" width="93" height="18"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="18" id="af9-0v-5ho"/>
@@ -513,7 +513,7 @@
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="oaa-aN-2VM">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="oaa-aN-2VM">
                                 <rect key="frame" x="20" y="99" width="95" height="80"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="80" id="BtM-xU-iwk"/>
@@ -556,7 +556,7 @@
         <!--Take Order-->
         <scene sceneID="vCm-qr-wzU">
             <objects>
-                <viewController id="Hgs-fy-5Nb" customClass="OrderingViewController" customModule="RestaurantPOS" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="Hgs-fy-5Nb" customClass="OrderingViewController" customModule="CrunchE" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="qn6-No-mNR"/>
                         <viewControllerLayoutGuide type="bottom" id="PiG-AE-Cbw"/>
@@ -565,7 +565,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <stepper opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" maximumValue="100" translatesAutoresizingMaskIntoConstraints="NO" id="qoQ-8E-7la">
+                            <stepper opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" maximumValue="100" translatesAutoresizingMaskIntoConstraints="NO" id="qoQ-8E-7la">
                                 <rect key="frame" x="213" y="227" width="94" height="29"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="29" id="bxO-rG-wwQ"/>
@@ -575,13 +575,13 @@
                                     <action selector="stepperValueChanged:" destination="Hgs-fy-5Nb" eventType="valueChanged" id="WwN-3T-Mta"/>
                                 </connections>
                             </stepper>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Name" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NVk-pp-U9i">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Name" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NVk-pp-U9i">
                                 <rect key="frame" x="23" y="132" width="45" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Price" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ynd-N3-cI0">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Price" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ynd-N3-cI0">
                                 <rect key="frame" x="23" y="194" width="130" height="21"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="130" id="Xmw-bT-HEo"/>
@@ -591,7 +591,7 @@
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Notes" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="j8v-op-0YM">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Notes" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="j8v-op-0YM">
                                 <rect key="frame" x="23" y="277" width="46" height="21"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="21" id="1dA-4V-4Qt"/>
@@ -608,7 +608,7 @@
                                 <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Table #" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="c1h-8P-n4M">
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Table #" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="c1h-8P-n4M">
                                 <rect key="frame" x="213" y="132" width="97" height="30"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" keyboardType="numberPad"/>
@@ -616,14 +616,14 @@
                                     <action selector="tableChanged:" destination="Hgs-fy-5Nb" eventType="editingChanged" id="eqe-lP-zao"/>
                                 </connections>
                             </textField>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kkj-SQ-uct">
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kkj-SQ-uct">
                                 <rect key="frame" x="117" y="429" width="86" height="30"/>
                                 <state key="normal" title="Add to order"/>
                                 <connections>
                                     <action selector="addToOrder:" destination="Hgs-fy-5Nb" eventType="touchUpInside" id="m3b-tr-GTa"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="1" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yBi-iw-eOw">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="1" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yBi-iw-eOw">
                                 <rect key="frame" x="234" y="192" width="53" height="27"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="27" id="VUN-He-hdZ"/>
@@ -634,7 +634,6 @@
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstItem="Ynd-N3-cI0" firstAttribute="leading" secondItem="xwe-VZ-5qi" secondAttribute="leading" constant="23" id="0is-74-FkX"/>
                             <constraint firstAttribute="trailing" secondItem="qoQ-8E-7la" secondAttribute="trailing" constant="13" id="1Or-cy-Lkt"/>
@@ -650,7 +649,7 @@
                             <constraint firstAttribute="trailing" secondItem="c1h-8P-n4M" secondAttribute="trailing" constant="10" id="mwD-GS-q7O"/>
                             <constraint firstAttribute="trailing" secondItem="yBi-iw-eOw" secondAttribute="trailing" constant="33" id="nTN-HP-x1B"/>
                             <constraint firstItem="kkj-SQ-uct" firstAttribute="top" secondItem="Ynd-N3-cI0" secondAttribute="bottom" constant="214" id="qUz-nX-klT"/>
-                            <constraint firstItem="c1h-8P-n4M" firstAttribute="leading" secondItem="NVk-pp-U9i" secondAttribute="trailing" constant="145" id="sV6-Yl-i4F"/>
+                            <constraint firstItem="c1h-8P-n4M" firstAttribute="leading" relation="lessThanOrEqual" secondItem="NVk-pp-U9i" secondAttribute="trailing" constant="145" id="sV6-Yl-i4F"/>
                             <constraint firstItem="NVk-pp-U9i" firstAttribute="leading" secondItem="xwe-VZ-5qi" secondAttribute="leading" constant="23" id="sp5-LV-ZY3"/>
                         </constraints>
                     </view>
@@ -672,7 +671,7 @@
         <!--Detailed Table View Controller-->
         <scene sceneID="XgA-bc-aw9">
             <objects>
-                <viewController id="10n-dM-7wa" customClass="detailedTableViewController" customModule="RestaurantPOS" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="10n-dM-7wa" customClass="detailedTableViewController" customModule="CrunchE" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="bY5-T6-Yh6"/>
                         <viewControllerLayoutGuide type="bottom" id="re2-pd-6dd"/>
@@ -701,7 +700,7 @@
                                 <rect key="frame" x="-4" y="44" width="328" height="475"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <prototypes>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="dishCell" rowHeight="137" id="OT0-g8-7ti" customClass="dishDetailsTableViewCell" customModule="RestaurantPOS" customModuleProvider="target">
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="dishCell" rowHeight="137" id="OT0-g8-7ti" customClass="dishDetailsTableViewCell" customModule="CrunchE" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="28" width="328" height="137"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="OT0-g8-7ti" id="iCA-Lz-P5g">
@@ -814,7 +813,7 @@
         <!--Menu-->
         <scene sceneID="xKc-YK-yxd">
             <objects>
-                <viewController storyboardIdentifier="StaffMenu" id="N80-R4-GR9" customClass="StaffMenuViewController" customModule="RestaurantPOS" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="StaffMenu" id="N80-R4-GR9" customClass="StaffMenuViewController" customModule="CrunchE" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="aUO-TN-e1B"/>
                         <viewControllerLayoutGuide type="bottom" id="64C-k8-Hyy"/>
@@ -827,7 +826,7 @@
                                 <rect key="frame" x="-4" y="0.0" width="328" height="519"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <prototypes>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" reuseIdentifier="menuCell" rowHeight="152" id="dwa-EV-fhq" customClass="MenuTableViewCell" customModule="RestaurantPOS" customModuleProvider="target">
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" reuseIdentifier="menuCell" rowHeight="152" id="dwa-EV-fhq" customClass="MenuTableViewCell" customModule="CrunchE" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="92" width="328" height="152"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="dwa-EV-fhq" id="fSe-l6-JJJ">
@@ -955,9 +954,9 @@
         <image name="iconmonstr-menu-5-32" width="32" height="32"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="WbB-aZ-ycB"/>
-        <segue reference="kgj-W7-5ek"/>
-        <segue reference="pyb-gr-qkz"/>
+        <segue reference="RAU-mc-Iam"/>
+        <segue reference="HXa-Tr-Pkj"/>
         <segue reference="uPo-bc-iOj"/>
+        <segue reference="kgj-W7-5ek"/>
     </inferredMetricsTieBreakers>
 </document>

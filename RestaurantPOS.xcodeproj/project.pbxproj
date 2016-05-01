@@ -33,7 +33,7 @@
 		5A53F8C31CD27C1B00696D0C /* dishDetailsTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = dishDetailsTableViewCell.swift; sourceTree = "<group>"; };
 		5A53F8C51CD2B3A200696D0C /* salesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = salesViewController.swift; sourceTree = "<group>"; };
 		5A53F8C71CD2B58E00696D0C /* salesTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = salesTableViewCell.swift; sourceTree = "<group>"; };
-		5AA29DCB1CB487D2000B58E4 /* RestaurantPOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RestaurantPOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5AA29DCB1CB487D2000B58E4 /* CrunchE.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CrunchE.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5AA29DCE1CB487D2000B58E4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5AA29DD01CB487D2000B58E4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		5AA29DD31CB487D2000B58E4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -85,7 +85,7 @@
 		5AA29DCC1CB487D2000B58E4 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				5AA29DCB1CB487D2000B58E4 /* RestaurantPOS.app */,
+				5AA29DCB1CB487D2000B58E4 /* CrunchE.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -127,9 +127,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		5AA29DCA1CB487D2000B58E4 /* RestaurantPOS */ = {
+		5AA29DCA1CB487D2000B58E4 /* CrunchE */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 5AA29DDD1CB487D2000B58E4 /* Build configuration list for PBXNativeTarget "RestaurantPOS" */;
+			buildConfigurationList = 5AA29DDD1CB487D2000B58E4 /* Build configuration list for PBXNativeTarget "CrunchE" */;
 			buildPhases = (
 				9A9AD95D028A6769E276FF51 /* Check Pods Manifest.lock */,
 				5AA29DC71CB487D2000B58E4 /* Sources */,
@@ -142,9 +142,9 @@
 			);
 			dependencies = (
 			);
-			name = RestaurantPOS;
+			name = CrunchE;
 			productName = RestaurantPOS;
-			productReference = 5AA29DCB1CB487D2000B58E4 /* RestaurantPOS.app */;
+			productReference = 5AA29DCB1CB487D2000B58E4 /* CrunchE.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -176,7 +176,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				5AA29DCA1CB487D2000B58E4 /* RestaurantPOS */,
+				5AA29DCA1CB487D2000B58E4 /* CrunchE */,
 			);
 		};
 /* End PBXProject section */
@@ -413,7 +413,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		5AA29DDD1CB487D2000B58E4 /* Build configuration list for PBXNativeTarget "RestaurantPOS" */ = {
+		5AA29DDD1CB487D2000B58E4 /* Build configuration list for PBXNativeTarget "CrunchE" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				5AA29DDE1CB487D2000B58E4 /* Debug */,

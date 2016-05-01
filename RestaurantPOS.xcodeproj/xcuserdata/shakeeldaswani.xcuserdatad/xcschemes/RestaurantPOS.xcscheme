@@ -15,8 +15,8 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "5AA29DCA1CB487D2000B58E4"
-               BuildableName = "RestaurantPOS.app"
-               BlueprintName = "RestaurantPOS"
+               BuildableName = "CrunchE.app"
+               BlueprintName = "CrunchE"
                ReferencedContainer = "container:RestaurantPOS.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -33,8 +33,8 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "5AA29DCA1CB487D2000B58E4"
-            BuildableName = "RestaurantPOS.app"
-            BlueprintName = "RestaurantPOS"
+            BuildableName = "CrunchE.app"
+            BlueprintName = "CrunchE"
             ReferencedContainer = "container:RestaurantPOS.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
@@ -56,8 +56,8 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "5AA29DCA1CB487D2000B58E4"
-            BuildableName = "RestaurantPOS.app"
-            BlueprintName = "RestaurantPOS"
+            BuildableName = "CrunchE.app"
+            BlueprintName = "CrunchE"
             ReferencedContainer = "container:RestaurantPOS.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
@@ -75,8 +75,8 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "5AA29DCA1CB487D2000B58E4"
-            BuildableName = "RestaurantPOS.app"
-            BlueprintName = "RestaurantPOS"
+            BuildableName = "CrunchE.app"
+            BlueprintName = "CrunchE"
             ReferencedContainer = "container:RestaurantPOS.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
